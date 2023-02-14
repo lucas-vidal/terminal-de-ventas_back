@@ -1,0 +1,13 @@
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001001, 'Coca Cola', 'Botella plastico 2,25lts', 350, 20, 'Unidad');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001002, 'Paso de los Toros', 'Botella plastico 2,25lts', 250, 20, 'Unidad');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001003, 'Manaos', 'Botella plastico 2,25lts', 300, 10, 'Unidad');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001004, 'Pepsi', 'Botella plastico 2,25lts', 325, 50, 'Unidad');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001005, '7UP', 'Botella plastico 2,25lts', 170, 3, 'Unidad');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001006, 'Serenisima', 'Manteca 200gr', 100, 9, 'Unidad');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001007, 'Pureza', 'Harina 0000', 450, 20, 'Kilo');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001008, 'Blancaflor', 'Harina 000', 350, 20, 'Kilo');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001009, 'Taragui', 'Yerba de 1kg', 800, 30, 'Kilo');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001010, 'Serenisima', 'Queso Crema cansancrem', 500, 35, 'unit');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001011, 'Mama Cosina', 'Pan rallado suelto', 350, 20, 'Kilo');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001012, 'Pureza', 'Harina 0000', 450, 20, 'Kilo');
+INSERT INTO products (code, brand, description, price, quantity, unit) VALUES (1001013, 'Pureza', 'Harina 000', 350, 20, 'Kilo');

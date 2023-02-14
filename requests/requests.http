@@ -1,0 +1,180 @@
+
+//PRDUCTOS
+@api_prod = http://localhost:3000/products
+
+### REQUEST PRODUCT
+GET {{api_prod}}
+
+### ADD PRODUCT
+POST {{api_prod}}
+Content-Type: application/json
+
+     {
+          "code": 989898,
+          "brand": "La Morenita",
+          "description": "Cafe de 1kg",
+          "price": 2554,
+          "quentity": 22,
+          "unit": "Pack"
+     }
+
+
+### REQUEST PRODUCT BY CODE
+GET {{api_prod}}/1001013
+
+### COUNT TOTAL PRODUCT
+POST {{api_prod}}/count
+
+### DELETE PRODUCT
+DELETE {{api_prod}}/100103
+
+### UPDATE PRODUCT
+PUT {{api_prod}}/1001010
+Content-Type: application/json
+
+{
+    "brand": "Pureza",
+    "description": "Harina 000",
+    "price": 355,
+    "quantity": 20,
+    "unit": "Kilo"
+}
+
+
+
+
+//CLIENTES
+@api_customer = http://localhost:3000/customers
+
+### REQUEST CUSTOMERS
+GET {{api_customer}}
+
+### ADD CUSTOMERS
+POST {{api_customer}}
+Content-Type: application/json
+
+     {
+          "dni": 56745677,
+          "name": "Daniel",
+          "surname": "Varela"
+     }
+
+### REQUEST CUSTOMERS BY DNI
+GET {{api_customer}}/45678699
+
+### DLETE CUSTOMERS
+DELETE {{api_customer}}/29885463
+
+### UPDATE CUSTOMERS
+PUT {{api_customer}}/45678699
+Content-Type: application/json
+
+     {
+          "name": "Facundo",
+          "surname": "Vidal"
+     }
+
+
+
+
+
+//CLIENTES
+@api_suppliers = http://localhost:3000/suppliers
+
+### REQUEST CUSTOMERS
+GET {{api_suppliers}}
+
+### ADD CUSTOMERS
+POST {{api_suppliers}}
+Content-Type: application/json
+
+     {
+          "supplier": "Proveedor1",
+          "address": "Avenida 1",
+          "city": "Glew",
+          "phone": "11331144"
+     }
+
+### REQUEST CUSTOMERS BY DNI
+GET {{api_suppliers}}/2
+
+### DLETE CUSTOMERS
+DELETE {{api_suppliers}}/7
+
+### UPDATE CUSTOMERS
+PUT {{api_suppliers}}/29885463
+Content-Type: application/json
+
+     {
+          "supplier": "Proveedor1",
+          "address": "Avenida 1",
+          "city": "Glew",
+          "phone": "11331144"
+     }
+
+
+//ID SALES
+@api_id_sales = http://localhost:3000/id_sales
+
+### REQUEST CUSTOMERS
+GET {{api_id_sales}}
+
+### ADD CUSTOMERS
+POST {{api_id_sales}}
+Content-Type: application/json
+
+     {
+          "dni_customer": "6465421"
+     }
+
+### REQUEST CUSTOMERS BY DNI
+GET {{api_id_sales}}/id
+
+### DELETE CUSTOMERS
+DELETE {{api_id_sales}}/3
+
+### UPDATE CUSTOMERS
+PUT {{api_id_sales}}/2
+Content-Type: application/json
+
+     {
+          "dni_customer": 33312345
+     }
+
+
+//ID SALES
+@api_sales = http://localhost:3000/sales
+
+### REQUEST CUSTOMERS
+GET {{api_sales}}
+
+### ADD CUSTOMERS
+POST {{api_sales}}
+Content-Type: application/json
+
+     {
+          "code": "6445",
+          "price": "55",
+          "quantity": "788"
+     }
+
+### REQUEST CUSTOMERS BY DNI
+GET {{api_sales}}/3
+
+### REQUEST CUSTOMERS BY DNI
+GET {{api_sales}}/2/1001006
+### COUNT TOTAL PRODUCT
+POST {{api_sales}}/count/1
+
+### DELETE CUSTOMERS
+DELETE {{api_sales}}/2/100104
+
+### UPDATE CUSTOMERS
+PUT {{api_sales}}/5
+Content-Type: application/json
+
+     {
+          "code": "884454651",
+          "price": "150",
+          "quantity": "12"
+     }
